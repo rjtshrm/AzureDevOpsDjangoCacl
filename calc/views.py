@@ -9,5 +9,5 @@ def say_hello(request):
 
 def add(request, num1, num2):
     print(f"Add: {num1, num2}")
-    sum = num1 + num2
+    sum = num1 - num2
     return HttpResponse(sum)
